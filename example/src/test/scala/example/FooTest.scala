@@ -5,6 +5,7 @@ import modal._
 import org.querki.jquery.{$, JQuery}
 
 class FooTest extends FreeSpec {
+/*
   implicit def jq2JQueryModal(jq: JQuery): JQueryModal.type = jq.asInstanceOf[JQueryModal.type]
 
   "jQuery Modal" - {
@@ -14,4 +15,6 @@ class FooTest extends FreeSpec {
       println("double yeah")
     }
   }
+*/
 }
+
